@@ -10,4 +10,5 @@ mkdir /tmp/scripts
 cd /tmp/scripts
 cp /etc/pam.d "test" -r
 chown chenzy:chenzy "test" -R
-chmod o-rwx "test" -R
+#chmod o-rwx "test" -R
+chmod o=--- "test" -R
